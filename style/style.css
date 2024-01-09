@@ -254,3 +254,16 @@ margin: 10px;
 }
 
 
+.colimg1{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 16px 16px;
+}
+.rec{
+    padding: 5px;
+}
+.rec :hover{
+
+    border: 5px;
+    color: #F00;
+}
