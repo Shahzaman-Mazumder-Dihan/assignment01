@@ -75,14 +75,182 @@ margin-bottom: 15px;
  
  }
  .banner{
+    height: 400px;
 
+    margin-top: 50px;
     padding: 20px;
     background-color: #070211;
+    background-image: url('../resources/Vectorrr.png');
+    border-radius: 16px;
+    background-size: cover;
  }
  .bannercontants{
+    height: 400px;
+    width: 60%;
     color: #f6f4f4;
+    padding: 50px;
+
 
 
  }
+ .para{
+    color: rgba(255, 255, 255, 0.80);
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; 
+ }
+
+
+.welcome{
+    color: #FFF;
+font-family: Merriweather;
+font-size: 64px;
+font-weight: 900;
+line-height: 88px; 
+letter-spacing: 7.04px;
+}
+#firstjoin{
+    background: transparent;
+    border: 0;
+    color: white;
+    padding: 30px;
+}
+#third{
+    padding: 20px;
+   
+   border-radius: 16px;
+ 
+}
+.textt{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 15px;
+font-weight: 400;
+line-height: 32px;
+width: 60%;
+
+
+}
+.redline3{
+    color: #F00;
+font-family: Inter;
+font-size: 10px;
+
+font-weight: 500;
+
+}
+.header3{
+color: #070211;
+font-family: Merriweather;
+font-size: 25px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+
+
+}
+.fifthbanner{
+
+    background-color: #7f7495;
+    align-items: center;
+    border-radius: 16px;
+    text-align: center;
+    padding: 50px;
+background: rgba(255, 0, 0, 0.05);
+}
+.fifthimg{
+    
+    width: 100px;
+    padding-top: 50px;
+    
+    flex-shrink: 0;
+    align-self: center;
+    
+}
+.fifthh{
+    color: #070211;
+text-align: center;
+font-family: Merriweather;
+font-size: 30px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+
+}
+.fifthp{
+    padding:22px 220px;
+
+    color: rgba(7, 2, 17, 0.60);
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+
+}
+.subscribeinput{
+    height: 30px;
+    background-color:white;
+  
+   margin:0px 350px ;
+   border-radius: 16px;
+   display: flex;
+     
+
+}
+.subbtn{
+
+    width: 100%;
+    
+}
+#inpute{
+    
+    width: 60%;
+    height: 100%;
+    border: 0;
+}
+#inputbtn{
+    width: 30%;
+    height: 100%;
+    background-color: #F00;
+    color: #FFF;
+    border: 0;
+    border-radius: 0px 16px 16px 0px;
+}
+footer{
+    border-radius: 16px;
+    text-align: center;
+
+    margin-top: 50px;
+    background: #070211;
+}
+hr{
+
+    margin: 60px;
+  
+   
+    
+}
+.foot1{
+    display: flex;
+    justify-content:space-between;
+    padding: 25px 100px;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+}
+.footerinfo{
+    font-size: 15px;
+}
+.foot2 img{
+margin: 10px;
+ 
+   
+
+
+}
 
 
