@@ -205,11 +205,15 @@ line-height: 32px; /* 160% */
 .subbtn{
 
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+  
     
 }
 #inpute{
-    
-    width: 60%;
+    border-radius: 16px 0px 0px 16px;
+    padding-left: 10px;
+   
     height: 100%;
     border: 0;
 }
@@ -220,6 +224,7 @@ line-height: 32px; /* 160% */
     color: #FFF;
     border: 0;
     border-radius: 0px 16px 16px 0px;
+    text-decoration: none;
 }
 footer{
     border-radius: 16px;
@@ -236,9 +241,10 @@ hr{
     
 }
 .foot1{
+    
     display: flex;
     justify-content:space-between;
-    padding: 25px 100px;
+    padding: 30px 100px;
     color: #FFF;
     font-family: 'Inter', sans-serif;
 }
@@ -262,8 +268,25 @@ margin: 10px;
 .rec{
     padding: 5px;
 }
-.rec :hover{
+.rec:hover{
 
-    border: 5px;
-    color: #F00;
+ 
+   background-color: rgba(233, 241, 140, 0.445);
+   border-radius: 16px;
+
+    
+    cursor: pointer;
+}
+button:hover{
+    cursor: pointer;
+    
+    font-weight: bold;
+
+
+}
+#firstjoin:hover{
+    
+    font-size: medium;
+
+  
 }
