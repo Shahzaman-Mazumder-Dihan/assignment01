@@ -290,3 +290,87 @@ button:hover{
 
   
 }
+
+
+.extra1,.bonus{
+    display: flex;
+    background: #d2cdd0;
+    height: 300px;
+    margin-top: 50px;
+    border-radius: 16px;
+}
+
+
+.extra2{
+  
+  margin: auto;
+   
+  
+   
+    
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+   
+    text-transform: capitalize;
+
+    
+
+   
+}
+.extra1 span{
+    color: #F00;
+}
+.extra1 button{
+    background-color: red ;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1em;
+    margin: 20px;
+}
+#tt{
+    color: #F00;
+    font-family: Inter;
+    font-size: 12px;
+
+}
+#t2{
+    color: #070211;
+
+    font-family: Merriweather;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.t3{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+
+}
+.imgb{
+    padding: 50px;
+    border: 6px solid red;
+    border-radius: 50%;
+   
+}
+#t4{
+    color: #F00;
+}
+.text1b,.imgb,.text2b{
+    padding: 40px;
+}
+.bonus{
+    height: fit-content;
+    align-items: center;
+    padding: 50px;
+}
