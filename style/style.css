@@ -374,3 +374,14 @@ font-weight: 400;
     align-items: center;
     padding: 50px;
 }
+
+
+.boximgb{
+    height: 500px;
+    width: 100%;
+    color: #d2cdd0;
+
+    background-image: url('../resources/Banner\ Image.png');
+  filter: brightness(80%);
+    background-color:rgb(255, 255, 255)
+}
